@@ -18,5 +18,7 @@ public class HeartCollect : MonoBehaviour
     {
         this.collectSound?.Play();
         this.gameObject.SetActive(false);
+
+        HealtMontor.Health += 1;
     }
 }
